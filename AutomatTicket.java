@@ -1,4 +1,4 @@
-package career.mainpackage;
+package TicketAutomat;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -25,8 +25,6 @@ public class AutomatTicket {
 		double pay = 0;
 		byte While = 1;
 		byte temp = 1;
-		
-		
 		
 		//Zonenauswahl
 		
@@ -220,5 +218,6 @@ public class AutomatTicket {
 				
 			}
 		} while(While == 1);
+		scan.close();
 	}
 }
