@@ -24,7 +24,6 @@ public class AutomatTicket {
 		double number = 0;
 		double pay = 0;
 		byte While = 1;
-		byte temp = 1;
 		
 		//Zonenauswahl
 		
@@ -193,14 +192,12 @@ public class AutomatTicket {
 						Thread.sleep(4000);
 						System.out.println("\n\n\n\n\n\n\n\n");
 						While = 1;
-						temp = 0;
 					} else if(endprice < 0.00) {
 						endprice = endprice * -1;
 						System.out.println("Ihr Betrag wurde komplett abgezahlt und ihr Restgeld im Wert von " + round1.format(endprice) + "€ bekommen sie als ein Gutschein gutgeschrieben \nViel spaß bei ihrem Aufenthalt.");
 						Thread.sleep(4000);
 						System.out.println("\n\n\n\n\n\n\n\n");
 						While = 1;
-						temp = 0;
 					}
 					
 				} else {
